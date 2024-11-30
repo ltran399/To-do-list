@@ -1,0 +1,82 @@
+/* src/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    display: flex;
+  }
+  
+  #sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  #sidebar h2 {
+    margin-top: 0;
+  }
+  
+  #project-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #project-list li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  #project-list li.active-project {
+    background-color: #ccc;
+  }
+  
+  #main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  #add-todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #add-todo-form input,
+  #add-todo-form select {
+    padding: 5px;
+  }
+  
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+  }
+  
+  .todo-item .priority-low {
+    color: green;
+  }
+  
+  .todo-item .priority-medium {
+    color: orange;
+  }
+  
+  .todo-item .priority-high {
+    color: red;
+  }
+  
+  .todo-item button {
+    padding: 5px 10px;
+  }
+  

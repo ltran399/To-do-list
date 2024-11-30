@@ -1,0 +1,33 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Todo List App</title>
+</head>
+<body>
+  <div id="container">
+    <aside id="sidebar">
+      <h2>Projects</h2>
+      <ul id="project-list"></ul>
+      <input type="text" id="project-name-input" placeholder="New Project Name" />
+      <button id="add-project-btn">Add Project</button>
+    </aside>
+    <main id="main-content">
+      <h2 id="project-title">Project Name</h2>
+      <div id="add-todo-form">
+        <input type="text" id="todo-title-input" placeholder="Todo Title" />
+        <input type="text" id="todo-description-input" placeholder="Description" />
+        <input type="date" id="todo-duedate-input" />
+        <select id="todo-priority-input">
+          <option>Low</option>
+          <option>Medium</option>
+          <option>High</option>
+        </select>
+        <button id="add-todo-btn">Add Todo</button>
+      </div>
+      <ul id="todo-list"></ul>
+    </main>
+  </div>
+</body>
+</html>
